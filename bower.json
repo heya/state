@@ -1,0 +1,27 @@
+{
+  "name": "heya-state",
+  "description": "State machines implement FSM and HSM variants. They are used to manage state transitions, drive visualization, and automate actions.",
+  "authors": [
+    "Eugene Lazutkin <eugene.lazutkin@gmail.com> (http://www.lazutkin.com)"
+  ],
+  "license": "BSD-3-Clause",
+  "keywords": [
+    "state",
+    "machine"
+  ],
+  "homepage": "https://github.com/heya/state",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "*.yml",
+    "*.md"
+  ]
+}

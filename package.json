@@ -1,0 +1,33 @@
+{
+  "name": "heya-state",
+  "version": "1.0.0",
+  "description": "State machines implement FSM and HSM variants. They are used to manage state transitions, drive visualization, and automate actions.",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "node tests/tests.js",
+    "dist": "node node_modules/heya-globalize/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/heya/state.git"
+  },
+  "keywords": [
+    "state",
+    "machine"
+  ],
+  "author": "Eugene Lazutkin <eugene.lazutkin@gmail.com> (http://www.lazutkin.com)",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/heya/state/issues"
+  },
+  "homepage": "https://github.com/heya/state#readme",
+  "browserGlobals": {
+    "!root": "heya.state"
+  },
+  "devDependencies": {
+    "heya-globalize": "^1.0.3",
+    "heya-unit": "^0.3.0"
+  }
+}
